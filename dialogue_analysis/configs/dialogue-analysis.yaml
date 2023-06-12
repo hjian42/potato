@@ -3,7 +3,7 @@
 
     "server_name": "potato annotator",
 
-    "annotation_task_name": "Dialogue Analysis",
+    "annotation_task_name": "Value Frames",
 
     # Potato will write the annotation file for all annotations to this
     # directory, as well as per-annotator output files and state information
@@ -20,7 +20,7 @@
 
     # If annotators are using a codebook, this will be linked at the top to the
     # instance for easy access
-    "annotation_codebook_url": "",
+    "annotation_codebook_url": "https://docs.google.com/document/d/11qK5gJuLdMg1C_hXE0hI7LE-2hqZdwQ1WEAYJbslAu4/edit?usp=sharing",
 
     "data_files": [
        "data_files/abstract-example.json"
@@ -32,6 +32,11 @@
         "context_key": "context"
     },
 
+    #defining the ways annotators entering the annotation system
+    "login": {
+      "type": 'url_direct',    #can be 'password' or 'url_direct'
+      "url_argument": 'PROLIFIC_PID' # when the login type is set to 'url_direct', 'url_argument' must be setup for a direct url argument login
+    },
 
     "user_config": {
 
@@ -54,12 +59,13 @@
         {
           "annotation_type": "highlight",
           "name": "values",
-          "description": "Highlight phrases directly expressing its research motivations in or contributions to ____",
+          "description": "Highlight texts explicitly encoding research values",
           "labels": [
-            "Performance and Efficiency", "Methodology Development", "Theoretical Foundations",
-            "Understanding Phenomena and Mechanisms", "Practicality and Real-world Usability",
-            "Ethical and Social Considerations", "Human-centered Design and Interaction",
-            "Collaboration and Reproducibility"
+            "Value",
+            # "Performance and Efficiency", "Methodology Development", "Theoretical Foundations",
+            # "Understanding Phenomena and Mechanisms", "Practicality and Real-world Usability",
+            # "Ethical and Social Considerations", "Human-centered Design and Interaction",
+            # "Collaboration and Reproducibility"
           ],
 
           # If true, numbers [1-len(labels)] will be bound to each
@@ -69,21 +75,9 @@
           "sequential_key_binding": False,
         },
         {
-            "annotation_type": "multiselect",
-            "name": "saliency",
-            "description": "Select the most salient research motivations and contributions",
-            "labels": [
-               "Performance and Efficiency", "Methodology Development", "Theoretical Foundations",
-                "Understanding Phenomena and Mechanisms", "Practicality and Real-world Usability",
-                "Ethical and Social Considerations", "Human-centered Design and Interaction",
-                "Collaboration and Reproducibility"
-            ],
-
-            # If true, numbers [1-len(labels)] will be bound to each
-            # label. Aannotations with more than 10 are not supported with this
-            # simple keybinding and will need to use the full item specification
-            # to bind all labels to keys.
-            "sequential_key_binding": False,                        
+            "annotation_type": "text",
+            "name": "textbox_input",
+            "description": "From your highlighted texts, write down lifted values (separated by comma ,)",
         },       
     ],
 
@@ -108,5 +102,11 @@
 
     # This is where the actual HTML files will be generated
     "site_dir": "default",
+
+    #the jumping-to-id function will be disabled if "jumping_to_id_disabled" is True
+    "jumping_to_id_disabled": True,
+
+    #the navigation bar will be hidden to the annotators if "hide_navbar" is True
+    "hide_navbar": True,
 
 }
