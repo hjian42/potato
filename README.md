@@ -1,3 +1,8 @@
+# Run this
+```
+potato start research_values -p 8000  
+```
+
 # 🥔Potato: the POrtable Text Annotation TOol
  
 [📖Documentation](https://potato-annotation.readthedocs.io/) | [🍎Feature hightlights](#Feature-hightlights)  |  [🛫️Quick Start](#Quick-Start) | [🌰Example projects (project hub)](#Example-projects-project-hub) | [🔥Design Team and Support](#Design-Team-and-Support) | [💰License](#License) | [🍞Cite us](#Cite-us)
