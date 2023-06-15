@@ -80,7 +80,7 @@
         {
             "annotation_type": "text",
             "name": "textbox_input",
-            "description": "Summarize the lifted research values with high-level words based on your highlighting (separated by comma newlines)",
+            "description": "Summarize the lifted research values with high-level words based on your highlighting (separated by comma newlines). Put down 'N/A' if no value is stated.",
 
             # adding requirements
             "label_requirement": {"required":True},
