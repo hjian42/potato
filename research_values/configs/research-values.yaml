@@ -23,7 +23,7 @@
     "annotation_codebook_url": "https://docs.google.com/document/d/11qK5gJuLdMg1C_hXE0hI7LE-2hqZdwQ1WEAYJbslAu4/edit?usp=sharing",
 
     "data_files": [
-       "data_files/abstract-example.json"
+       "data_files/abstract-example-v2.json"
     ],
 
     "item_properties": {
@@ -61,12 +61,15 @@
           "name": "values",
           "description": "Highlight texts explicitly encoding research values",
           "labels": [
-            "Value",
+            "Values",
             # "Performance and Efficiency", "Methodology Development", "Theoretical Foundations",
             # "Understanding Phenomena and Mechanisms", "Practicality and Real-world Usability",
             # "Ethical and Social Considerations", "Human-centered Design and Interaction",
             # "Collaboration and Reproducibility"
           ],
+
+          # adding requirements
+          "label_requirement": {"required":True},
 
           # If true, numbers [1-len(labels)] will be bound to each
           # label. Highlight selection annotations with more than 10 are not supported
@@ -77,7 +80,17 @@
         {
             "annotation_type": "text",
             "name": "textbox_input",
-            "description": "From your highlighted texts, write down lifted values (separated by comma ,)",
+            "description": "Summarize the lifted research values with high-level words based on your highlighting (separated by comma newlines)",
+
+            # adding requirements
+            "label_requirement": {"required":True},
+
+            # if you want to use multi-line textbox, turn on the text area and set the desired rows and cols of the textbox
+            "textarea": {
+              "on": True,
+              "rows": 10,
+              "cols": 70
+            }
         },       
     ],
 
