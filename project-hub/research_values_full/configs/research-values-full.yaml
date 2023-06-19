@@ -23,7 +23,7 @@
     "annotation_codebook_url": "https://docs.google.com/document/d/11qK5gJuLdMg1C_hXE0hI7LE-2hqZdwQ1WEAYJbslAu4/edit?usp=sharing",
 
     "data_files": [
-       "data_files/pilot-example.json",
+       "data_files/abstract-example-v2.json",
       #  "data_files/prestudy/prestudy_data.csv" #set the prestudy data file
     ],
 
@@ -117,7 +117,7 @@
           ],
 
           # adding requirements
-          "label_requirement": {"required":False},
+          "label_requirement": {"required":True},
 
           # If true, numbers [1-len(labels)] will be bound to each
           # label. Highlight selection annotations with more than 10 are not supported
@@ -125,21 +125,21 @@
           # specification to bind all labels to keys.
           "sequential_key_binding": False,
         },
-        {
-            "annotation_type": "text",
-            "name": "textbox_input",
-            "description": "Write a list of keywords that summarize the categories of research values that you highlighted. Put down 'N/A' if none.",
+        # {
+        #     "annotation_type": "text",
+        #     "name": "textbox_input",
+        #     "description": "Write a list of keywords that summarize the categories of research values that you highlighted. Put down 'N/A' if none.",
 
-            # adding requirements
-            "label_requirement": {"required":True},
+        #     # adding requirements
+        #     "label_requirement": {"required":True},
 
-            # if you want to use multi-line textbox, turn on the text area and set the desired rows and cols of the textbox
-            "textarea": {
-              "on": True,
-              "rows": 10,
-              "cols": 70
-            }
-        },       
+        #     # if you want to use multi-line textbox, turn on the text area and set the desired rows and cols of the textbox
+        #     "textarea": {
+        #       "on": True,
+        #       "rows": 10,
+        #       "cols": 70
+        #     }
+        # },       
     ],
 
     # The html that changes the visualiztation for your task. Change this file
