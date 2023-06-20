@@ -117,7 +117,7 @@
           ],
 
           # adding requirements
-          "label_requirement": {"required":True},
+          "label_requirement": {"required":False},
 
           # If true, numbers [1-len(labels)] will be bound to each
           # label. Highlight selection annotations with more than 10 are not supported
