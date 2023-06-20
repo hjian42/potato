@@ -23,7 +23,7 @@
     "annotation_codebook_url": "https://docs.google.com/document/d/11qK5gJuLdMg1C_hXE0hI7LE-2hqZdwQ1WEAYJbslAu4/edit?usp=sharing",
 
     "data_files": [
-       "data_files/abstract-example-v2.json",
+       "data_files/abstract-NLP-HCI-20.json",
       #  "data_files/prestudy/prestudy_data.csv" #set the prestudy data file
     ],
 
@@ -56,7 +56,7 @@
     "require_no_password": True,
 
     #the jumping-to-id function will be disabled if "jumping_to_id_disabled" is True
-    "jumping_to_id_disabled": True,
+    "jumping_to_id_disabled": False,
 
   #the navigation bar will be hidden to the annotators if "hide_navbar" is True
     "hide_navbar": True,
