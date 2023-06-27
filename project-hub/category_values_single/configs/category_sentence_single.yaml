@@ -56,7 +56,7 @@
     "require_no_password": True,
 
     #the jumping-to-id function will be disabled if "jumping_to_id_disabled" is True
-    "jumping_to_id_disabled": True,
+    "jumping_to_id_disabled": False,
 
   #the navigation bar will be hidden to the annotators if "hide_navbar" is True
     "hide_navbar": True,
@@ -116,7 +116,7 @@
                 <li>&quot;obtain both lower validation loss and higher accuracy&quot;</li>
                 <li>&quot;reduce root mean squared error (RMSE)&quot;</li>
             </ul>
-            <br><br>Highlight ALL text spans containing the &quot;PERFORMANCE&quot; value:",
+            <br>Highlight ALL text spans containing the &quot;PERFORMANCE&quot; value:",
           "labels": [
             'PERFORMANCE',
             # 'Efficiency', 'Generalization', 'Novelty', 'Performance', 'Reproducibility', 
