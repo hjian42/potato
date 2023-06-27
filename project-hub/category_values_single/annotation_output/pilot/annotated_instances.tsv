@@ -1,0 +1,3 @@
+user	instance_id	displayed_text	choice_verify:::No	choice_verify:::Yes
+132	0	While data augmentation is an important trick to boost the accuracy of deep learning methods in computer vision tasks, its study in natural language tasks is still very limited.	choice_verify:::No	
+132	1	The automatic generation of Multiple Choice Questions (MCQ) has the potential to reduce the time educators spend on student assessment significantly.		choice_verify:::Yes
