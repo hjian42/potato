@@ -3,7 +3,7 @@
 
     "server_name": "potato annotator",
 
-    "annotation_task_name": "Research Value Detection",
+    "annotation_task_name": "Research Value Classification",
 
     # Potato will write the annotation file for all annotations to this
     # directory, as well as per-annotator output files and state information
@@ -20,10 +20,10 @@
 
     # If annotators are using a codebook, this will be linked at the top to the
     # instance for easy access
-    "annotation_codebook_url": "https://docs.google.com/document/d/11qK5gJuLdMg1C_hXE0hI7LE-2hqZdwQ1WEAYJbslAu4/edit?usp=sharing",
+    "annotation_codebook_url": "",
 
     "data_files": [
-       "data_files/abstract-NLP-HCI-Theory-Education-20.json",
+       "data_files//abstract-all-fields-example-3.json",
       #  "data_files/prestudy/prestudy_data.csv" #set the prestudy data file
     ],
 
@@ -107,17 +107,15 @@
         {
           "annotation_type": "highlight",
           "name": "values",
-          "description": "Remainder: Research values are the explicit expressions of why something is desirable or undesirable. <br> <br>Highlight all the research values in the above text",
+          "description": "Identify text spans containing research values and highlight them with corresponding value categories:",
           "labels": [
-            "Research Values",
-            # "Performance and Efficiency", "Methodology Development", "Theoretical Foundations",
-            # "Understanding Phenomena and Mechanisms", "Practicality and Real-world Usability",
-            # "Ethical and Social Considerations", "Human-centered Design and Interaction",
-            # "Collaboration and Reproducibility"
+            'Efficiency', 'Generalization', 'Novelty', 'Performance', 'Reproducibility', 
+            'Rigor', 'Safety', 'Simplicity', 'Societal Implication', 'Statistical Significance', 
+            'Theoretical Grounding', 'User Experience'
           ],
 
           # adding requirements
-          "label_requirement": {"required":False},
+          "label_requirement": {"required":True},
 
           # If true, numbers [1-len(labels)] will be bound to each
           # label. Highlight selection annotations with more than 10 are not supported

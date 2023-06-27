@@ -1,6 +1,7 @@
 # Run this
 ```
-potato start research_values -p 8000  
+cd project-hub
+potato start research_values_full -p 8000
 ```
 
 # 🥔Potato: the POrtable Text Annotation TOol
