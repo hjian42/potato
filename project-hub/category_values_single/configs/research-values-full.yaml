@@ -56,7 +56,7 @@
     "require_no_password": True,
 
     #the jumping-to-id function will be disabled if "jumping_to_id_disabled" is True
-    "jumping_to_id_disabled": True,
+    "jumping_to_id_disabled": False,
 
   #the navigation bar will be hidden to the annotators if "hide_navbar" is True
     "hide_navbar": True,
@@ -107,18 +107,18 @@
         {
           "annotation_type": "highlight",
           "name": "values",
-          "description": "<p>Performance refers to the effectiveness of a method or model, often in comparison to existing approaches with quantitative measures such as accuracy, loss, perplexity.</p>
+          "description": "<p>PERFORMANCE refers to the effectiveness of a method or model, often in comparison to existing approaches with quantitative measures such as accuracy, loss, perplexity, and error rate.</p>
             <ul>
-                <li>achieves results beyond the current state of the art results</li>
-                <li>demonstrate the effectiveness of our framework</li>
-                <li>match the best known results</li>
-                <li>decrease cross entropy scores</li>
-                <li>obtain both lower validation loss and higher accuracy</li>
-                <li>reduce root mean squared error (RMSE)</li>
+                <li>&quot;achieves results beyond the current state of the art results&quot;</li>
+                <li>&quot;demonstrate the effectiveness of our framework&quot;</li>
+                <li>&quot;match the best known results&quot;</li>
+                <li>&quot;decrease cross entropy scores&quot;</li>
+                <li>&quot;obtain both lower validation loss and higher accuracy&quot;</li>
+                <li>&quot;reduce root mean squared error (RMSE)&quot;</li>
             </ul>
-            <br><br>Highlight text spans containing the 'performance' value:",
+            <br><br>Highlight ALL text spans containing the &quot;PERFORMANCE&quot; value:",
           "labels": [
-            'Performance',
+            'PERFORMANCE',
             # 'Efficiency', 'Generalization', 'Novelty', 'Performance', 'Reproducibility', 
             # 'Rigor', 'Safety', 'Simplicity', 'Societal Implication', 'Statistical Significance', 
             # 'Theoretical Grounding', 'User Experience'
@@ -136,7 +136,7 @@
         {
             "annotation_type": "radio",
             "name": "choice_verify",
-            "description": "Are you sure the sentence does NOT contain any 'performance' value? <br><br> If so, choose Yes; otherwise, choose No.",
+            "description": "Are you sure the sentence does NOT contain any &quot;PERFORMANCE&quot; value? <br><br> If so, choose Yes; otherwise, choose No.",
 
             # adding requirements
             "label_requirement": {"required":True},
