@@ -8,7 +8,7 @@
     # Potato will write the annotation file for all annotations to this
     # directory, as well as per-annotator output files and state information
     # necessary to restart annotation.
-    "output_annotation_dir": "annotation_output/pilot/",
+    "output_annotation_dir": "annotation_output/pilot_performance/",
 
     # The output format for the all-annotator data. Allowed formats are:
     # * jsonl
@@ -16,7 +16,7 @@
     # * csv
     # * tsv
     #
-    "output_annotation_format": "tsv", 
+    "output_annotation_format": "tsv",
 
     # If annotators are using a codebook, this will be linked at the top to the
     # instance for easy access

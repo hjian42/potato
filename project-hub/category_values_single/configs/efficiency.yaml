@@ -8,7 +8,7 @@
     # Potato will write the annotation file for all annotations to this
     # directory, as well as per-annotator output files and state information
     # necessary to restart annotation.
-    "output_annotation_dir": "annotation_output/pilot-novelty/",
+    "output_annotation_dir": "annotation_output/pilot-efficiency/",
 
     # The output format for the all-annotator data. Allowed formats are:
     # * jsonl
@@ -30,7 +30,6 @@
     "item_properties": {
         "id_key": "id",
         "text_key": "text",
-        "context_key": "context"
     },
 
   #list_as_text is used when the input text is actually a list of texts, usually used for best-worst-scaling
@@ -119,7 +118,7 @@
             <br><p>
               ATTENTION:<br>
               (1) Feel free to choose &quot;NO&quot; when there is no EFFICIENCY value in the sentence.<br>
-              (2) Each category can refer to both the inclusion and exclusion of that value. For example, the “efficiency” category can include both references to “efficiency” and “inefficiency”.<br>
+              (2) Each category can refer to both the inclusion and exclusion of that value. For example, the EFFICIENCY category can include both references to “efficiency” and “inefficiency”.<br>
               (3) EFFICIENCY is separate from other research values like performance, novelty, simplicity, generalization, safety, theoretical grounding, user experience, societal implication, reproducibility, rigor, statistical significance, etc. 
             </p><br>
             <p>Highlight ALL text spans containing the &quot;EFFICIENCY&quot; value:</p>",
@@ -138,7 +137,7 @@
         },
         {
             "annotation_type": "radio",
-            "name": "choice_verify",
+            "name": "check_your_work_question",
             "description": "Check your work: Does the sentence contain any EFFICIENCY value?",
 
             # adding requirements
