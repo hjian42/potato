@@ -1,20 +1,20 @@
-{"id": "0", "text": ["Recent research has begun to examine the vulnerabilities and robustness of different collaborative recommendation techniques in the face of “profile injection” attacks."]}
-{"id": "1", "text": ["Both of these constructions cause an extra polynomial factor in the number of parameters over the target network."]}
-{"id": "2", "text": ["Transfer learning is to learn transferable representations that can generalize well across different domains."]}
-{"id": "3", "text": ["We introduce several new attack models and perform extensive simulation-based evaluations to show which attacks are most successful and practical against common recommendation techniques."]}
-{"id": "4", "text": ["Our experimental results show that although the discrete prompt-based method remains relatively robust against perturbations to NLI inputs, they are highly sensitive to other types of perturbations such as shuffling and deletion of prompt tokens."]}
-{"id": "5", "text": ["We implement the framework at Uber Eats, one of the largest online food delivery platforms in the world and a three-sided marketplace consisting of eaters, restaurant partners and delivery partners."]}
-{"id": "6", "text": ["In particular, it focuses simultaneous learning of multiple tasks, an element of MTL and promptly adapting to new tasks, a quality of meta learning."]}
-{"id": "7", "text": ["Alternatively, corrections might not improve subsequent sharing - or even backfire - by making users feel defensive, or by shifting their attention away from accuracy (e.g., towards various social factors)."]}
-{"id": "8", "text": ["Hence, developing ML models that can be broadly applied to a wide range of different materials and reactions is crucial to further increase efficiency."]}
-{"id": "9", "text": ["Content delivery mechanisms and active learning/project-based experiences for undergraduate students have developed and matured at a dramatic pace in recent years."]}
-{"id": "10", "text": ["We show that discriminators trained on discrete datasets with the original GAN loss have poor generalization capability and do not approximate the theoretically optimal discriminator."]}
-{"id": "11", "text": ["For computer science courses, the use of problem-based learning, virtual tutors, learning style personalization and game programming are possible ways to achieve this goal."]}
-{"id": "12", "text": ["On digit recognition and semantic segmentation tasks, our method learns models improve performance across a range of a priori unknown target domains."]}
-{"id": "13", "text": ["Our tool, called CorpSum, shows a 43.12 point increase in the mean SUS score in a randomized within-subjects test and an improvement of 3.18 times in mean task completion duration compared to a conventional solution."]}
-{"id": "14", "text": ["We first establish that naively finetuning transformers on length generalization tasks shows significant generalization deficiencies independent of model scale."]}
-{"id": "15", "text": ["This paper presents FlexHaptics, a design method for creating custom haptic input interfaces."]}
-{"id": "16", "text": ["In pursuit of stronger performance under weaker assumptions, we propose a technique which uses a cheap and robust iterative estimate of the risk gradient, which can be easily fed into any steepest descent procedure."]}
-{"id": "17", "text": ["This paper describes the continuation of a project that aims at establishing an interoperable annotation schema for quantification phenomena as part of the ISO suite of standards for semantic annotation, known as the Semantic Annotation Framework."]}
-{"id": "18", "text": ["In this paper, we show that Multilingual BERT (M-BERT), released by Devlin et al. (2018) as a single language model pre-trained from monolingual corpora in 104 languages, is surprisingly good at zero-shot cross-lingual model transfer, in which task-specific annotations in one language are used to fine-tune the model for evaluation in another language."]}
-{"id": "19", "text": ["Using the analytical lens of object-oriented publics, our findings reveal opportunities and challenges that youth and staff face when they use SNAs."]}
+{"id": "0", "text": []}
+{"id": "1", "text": []}
+{"id": "2", "text": []}
+{"id": "3", "text": []}
+{"id": "4", "text": []}
+{"id": "5", "text": []}
+{"id": "6", "text": []}
+{"id": "7", "text": []}
+{"id": "8", "text": []}
+{"id": "9", "text": []}
+{"id": "10", "text": []}
+{"id": "11", "text": []}
+{"id": "12", "text": []}
+{"id": "13", "text": []}
+{"id": "14", "text": []}
+{"id": "15", "text": []}
+{"id": "16", "text": []}
+{"id": "17", "text": []}
+{"id": "18", "text": []}
+{"id": "19", "text": []}
