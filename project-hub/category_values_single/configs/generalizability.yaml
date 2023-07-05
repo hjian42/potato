@@ -108,14 +108,13 @@
           "description": "<p>GENERALIZABILITY refers to the ability to adapt and perform well across a wide range of tasks, conditions, and scenarios. Sometimes known as generalization, universality, adaptability, robustness, flexibility. Here are some example excerpts:</p>
             <ul>
                 <li>&quot;  this algorithm has been successfully applied to a variety of tasks &quot;</li>
-                <li>&quot;  our results hold for a large class of scenarios &quot;</li>
-                <li>&quot;  reduce the training / test time &quot;</li>
+                <li>&quot;  generalize well to out-of-distribution (OOD) domains &quot;</li>
                 <li>&quot;  use regularization to prevent overfitting to this dataset &quot;</li>
-                <li>&quot;  achieve lower perplexity scores in language modeling &quot;</li>
-                <li>&quot;  a lack of universality &quot;</li>
+                <li>&quot;  representations are universally applicable across a wide array of tasks &quot;</li>
                 <li>&quot;  can only deal with specific languages &quot;</li>
                 <li>&quot;  adapt poorly to unseen tasks &quot;</li>
                 <li>&quot;  require very strong assumptions &quot;</li>
+                <li>&quot;  a lack of flexibility &quot;</li>
             </ul>
             <br><p>
               ATTENTION:<br>
