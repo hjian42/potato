@@ -1,0 +1,20 @@
+{"id": "0", "text": ["We therefore construct event-specific corpora from a large static background corpus, the newsroom dataset, using differing, relatively simple IR methods based on raw text alone."]}
+{"id": "1", "text": ["A weak TLS algorithm can even match a stronger one by employing a stronger IR method in the data collection phase."]}
+{"id": "2", "text": ["The rigid fluid method is straightforward to implement, incurs very little computational overhead, and can be added as a bridge between current fluid simulators and rigid body solvers."]}
+{"id": "3", "text": ["Depth separation results propose a possible theoretical explanation for the benefits of deep neural networks over shallower architectures, establishing that the former possess superior approximation capabilities."]}
+{"id": "4", "text": ["These block programming languages are popular because of their simplicity and 'tinkerability' allowing novice users to create a project within minutes of first being exposed to the language."]}
+{"id": "5", "text": ["ChewIt resembles an edible object that allows users to perform various hands-free input operations, both simply and discreetly."]}
+{"id": "6", "text": ["Extensive experiments on datasets from the TREC Microblog Tracks show that our simple models not only achieve better effectiveness than existing approaches that are far more complex or exploit a more diverse set of relevance signals, but are also much faster."]}
+{"id": "7", "text": ["We provide the first nearly optimal sample complexity upper and lower bounds for the problem."]}
+{"id": "8", "text": ["In contrast, our solution is more elegant: we use public word embeddings to train a single-label that jointly learns representations for entity mentions and their context."]}
+{"id": "9", "text": ["Our proof technique introduces new tools and ideas that may be of independent interest in the theoretical study of both the approximation and optimization of neural networks."]}
+{"id": "10", "text": ["In this paper, we describe a nontrivial editorial process starting from the creation of the original one-purpose database and ending with its reconstruction using only freely available text editions and annotations."]}
+{"id": "11", "text": ["We further enhance the modeling power of TreeLSTM by explicitly representing the correlations between left and right dependents."]}
+{"id": "12", "text": ["To address this issue, we propose a simple yet effective Language-independent Layout Transformer (LiLT) for structured document understanding."]}
+{"id": "13", "text": ["While recent pre-trained models incorporate both words and characters simultaneously, they usually suffer from deficient semantic interactions and fail to capture the semantic relation between words and characters."]}
+{"id": "14", "text": ["We introduce FLOTA (Few Longest Token Approximation), a simple yet effective method to improve the tokenization of pretrained language models (PLMs)."]}
+{"id": "15", "text": ["As a co-product, we settle an open question posed by Abbe et. al. concerning censor block models."]}
+{"id": "16", "text": ["Both quantitative and qualitative experiments on the Yelp and IMDb datasets show that our model gives competitive performance compared to several strong baselines with more complicated architecture designs."]}
+{"id": "17", "text": ["We evaluate Lexi on four tasks: UI action entailment, instruction-based UI image retrieval, grounding referring expressions, and UI entity recognition."]}
+{"id": "18", "text": ["It also uses efficient encoder-decoder transformers to simplify the processing of concatenated input documents."]}
+{"id": "19", "text": ["This phenomenon, that errors are higher closer to thresholds (and thresholds closer to the boundary are harder to represent), is a well-known cognitive finding."]}
