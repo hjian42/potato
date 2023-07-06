@@ -116,10 +116,11 @@
                 <li>&quot;  prior work has higher time / space complexity &quot;</li>
             </ul>
             <br><p>
-              ATTENTION:<br>
-              (1) Feel free to choose &quot;NO&quot; when there is no EFFICIENCY value in the sentence.<br>
-              (2) Each category can refer to both the inclusion and exclusion of that value. For example, the EFFICIENCY category can include both references to “efficiency” and “inefficiency”.<br>
-              (3) EFFICIENCY is separate from other research values like performance, novelty, simplicity, generalization, safety, theoretical grounding, user experience, societal implication, reproducibility, rigor, statistical significance, etc. 
+              INSTRUCTIONS:<br>
+              (1) Select EFFICIENCY then hightlight. If you’d like to delete a highlight you created, click on the highlighted span.<br>
+              (2) Feel free to choose &quot;NO&quot; when there is no EFFICIENCY value in the sentence. If you choose YES, make sure you highlight spans.<br>
+              (3) EFFICIENCY value can refer to both the inclusion and exclusion of that value. For example, the EFFICIENCY category can include both references to “efficiency” and “inefficiency”.<br>
+              (4) EFFICIENCY is separate from other research values like performance, novelty, simplicity, generalization, safety, theoretical grounding, user experience, societal implication, reproducibility, rigor, statistical significance, etc. 
             </p><br>
             <p>Highlight ALL text spans containing the &quot;EFFICIENCY&quot; value:</p>",
           "labels": [
@@ -138,7 +139,8 @@
         {
             "annotation_type": "radio",
             "name": "check_your_work_question",
-            "description": "Check your work: Does the sentence contain any EFFICIENCY value?",
+            "description": "Check your work: Does the sentence contain any EFFICIENCY value?<br><br>
+                            ATTENTION: If YES, make sure you highlight EFFICIENCY value spans.",
 
             # adding requirements
             "label_requirement": {"required":True},
