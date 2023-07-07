@@ -1,0 +1,20 @@
+{"id": "0", "text": ["In this paper, we present a tool-design which enables language researchers to easily query annotated text corpora and conduct a comparative multi-faceted analysis on a single screen."]}
+{"id": "1", "text": ["Structured document understanding has attracted considerable attention and made significant progress recently, owing to its crucial role in intelligent document processing."]}
+{"id": "2", "text": ["We introduce Dynatask: an open source system for setting up custom NLP tasks that aims to greatly lower the technical knowledge and effort required for hosting and evaluating state-of-the-art NLP models, as well as for conducting model in the loop data collection with crowdworkers."]}
+{"id": "3", "text": ["After a break, caused by the Covid-19 pandemic, the project was relaunched in early 2022 with a second working draft of an annotation scheme, which is discussed in this paper."]}
+{"id": "4", "text": ["To create a task, users only need to write a short task configuration file from which the relevant web interfaces and model hosting infrastructure are automatically generated."]}
+{"id": "5", "text": ["Due to these tail users, the fundamental low-rank assumption made by existing methods is seriously violated and becomes unrealistic."]}
+{"id": "6", "text": ["Private Webmail 2.0 (Pwm 2.0) improves upon the current state of the art by increasing the usability and practical security of secure email for ordinary users."]}
+{"id": "7", "text": ["Many trust prediction methods are proposed based on the low-rank assumption of a trust network."]}
+{"id": "8", "text": ["These guidelines were developed through a user-centered design approach that included in-depth interviews and a series of user studies using two adapted board games."]}
+{"id": "9", "text": ["These tools, including a CS coaching toolkit and instructional practice evidence guide, have the potential to drive impactful, job-embedded development."]}
+{"id": "10", "text": ["Participants in this highly interactive session will collectively construct a shared vision for the future of computing sciences education, and outline a research agenda for the future."]}
+{"id": "11", "text": ["The system was evaluated in an experiment where two types of virtual tutors were proposed and generated considering two virtual game programming classes."]}
+{"id": "12", "text": ["Our proposed structural modeling approach ensures consistent user experience across different levels of aggregation of the contents, and provides levels of transparency to the merchants and content providers."]}
+{"id": "13", "text": ["Recommending for a multi-sided marketplace therefore entails jointly optimizing multiple objectives with trade-offs."]}
+{"id": "14", "text": ["Our paper also contributes to the game and accessibility communities through the development of adaptation guidelines that allow board games to become inclusive irrespective of a player's visual impairment."]}
+{"id": "15", "text": ["In light of previous depth separation theorems, which imply that a similar result cannot hold when the roles of width and depth are interchanged, it follows that depth plays a more signiﬁcant role than width in the expressive power of neural networks."]}
+{"id": "16", "text": ["To bridge this gap, EasyNLP is designed to make it easy to build NLP applications, which supports a comprehensive suite of NLP algorithms."]}
+{"id": "17", "text": ["We propose a latent model that mixes discrete and continuous behaviour allowing at the same time for binary selections and gradient-based training without REINFORCE."]}
+{"id": "18", "text": ["We focus on text classifiers and make them more interpretable by having them provide a justification–a rationale–for their predictions."]}
+{"id": "19", "text": ["Not only is this IR method not reproducible at different search times, it also uses components (such as document popularity) that are not always available for any large news corpus."]}
