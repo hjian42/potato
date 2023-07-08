@@ -105,7 +105,7 @@
         {
           "annotation_type": "highlight",
           "name": "values",
-          "description": "<p>SOCIETAL IMPLICATION refers to the potential of research to impact social change, promote well-being, and address challenges faced by societies and communities (policy makers, healthcare workers, scientists, educators, etc.). Please do NOT include user experience (e.g., users, customers, clients). Here are some example excerpts:</p>
+          "description": "<p>SOCIETAL IMPLICATION refers to the potential of research to impact social change, promote well-being, and address challenges faced by societies and communities. We focus on societal level impacts, instead of individual-level usability. Please do NOT include user experience. Here are some example excerpts:</p>
             <ul>
                 <li>&quot;  promoting their socio-emotional wellbeing &quot;</li>
                 <li>&quot;  implications for technology development &quot;</li>
@@ -118,7 +118,7 @@
             </ul>
             <br><p>
               ATTENTION:<br>
-              (1) Select SOCIETAL IMPLICATION then hightlight. If you’d like to DELETE a highlight you created, CLICK on the highlighted span.<br>
+              (1) Select SOCIETAL IMPLICATION then highlight. If you’d like to DELETE a highlight you created, CLICK on the highlighted span.<br>
               (2) Feel free to choose &quot;NO&quot; when there is no SOCIETAL IMPLICATION value in the sentence.<br>
               (3) SOCIETAL IMPLICATION is separate from other research values like performance, novelty, simplicity, theoretical grounding, efficiency, safety, generalizability, reproducibility, rigor, statistical significance, etc. 
             </p><br>
