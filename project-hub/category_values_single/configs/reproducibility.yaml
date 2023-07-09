@@ -105,25 +105,27 @@
         {
           "annotation_type": "highlight",
           "name": "values",
-          "description": "<p>REPRODUCIBILITY refers to the ability to consistently achieve the same (or similar) results in a research study by following the same methods and using the same data and code. Here are some example excerpts:</p>
+          "description": "<p>OPENNESS & REPRODUCIBILITY (OR) refers to promoting open science (keeping transparent and sharing information about research procedures, data, methods, and results) and reproducibility (ensuring others can repeat the process to obtain the same results). Here are some example excerpts:</p>
             <ul>
-                <li>&quot;  reproduce classic results in modern settings &quot;</li>
+                <li>&quot;  promote the practice of open science &quot;</li>
+                <li>&quot;  increase transparency about data use &quot;</li>
+                <li>&quot;  data and code are open sourced / shared &quot;</li>
                 <li>&quot;  code is available for future reproducibility &quot;</li>
-                <li>&quot;  data and code are open sourced &quot;</li>
-                <li>&quot;  results are not reproducible at different search times &quot;</li>
+                <li>&quot;  reproduce classic results in modern settings &quot;</li>
                 <li>&quot;  could not replicate the results of prior work &quot;</li>
+                <li>&quot;  no statistical significance testing is conducted in the prior work &quot;</li>
             </ul>
             <br><p>
               ATTENTION:<br>
-              (1) Select REPRODUCIBILITY then hightlight. If you’d like to DELETE a highlight you created, CLICK on the highlighted span.<br>
-              (2) Feel free to choose &quot;NO&quot; when there is no REPRODUCIBILITY value in the sentence.<br>
-              (3) REPRODUCIBILITY can refer to both the inclusion and exclusion of that value. For example, the REPRODUCIBILITY category can include both replicable and non-replicable.<br>
-              (4) REPRODUCIBILITY is separate from other research values like usefulness, easiness-to-use, performance, novelty, theoretical grounding, efficiency, safety, generalizability, simplicity, societal implication, rigor, statistical significance, etc. 
+              (1) Select OPENNESS & REPRODUCIBILITY (OR) then highlight. If you’d like to DELETE a highlight you created, CLICK on the highlighted span.<br>
+              (2) Feel free to choose &quot;NO&quot; when there is no OPENNESS & REPRODUCIBILITY (OR) value in the sentence.<br>
+              (3) OPENNESS & REPRODUCIBILITY (OR) can refer to both the inclusion and exclusion of that value. For example, the OPENNESS & REPRODUCIBILITY (OR) category can include both open/replicable and closed/non-replicable.<br>
+              (4) OPENNESS & REPRODUCIBILITY (OR) is separate from other research values like performance, novelty, theoretical grounding, efficiency, safety, generalizability, simplicity, societal implication, etc. 
             </p><br>
-            Highlight ALL text spans containing the REPRODUCIBILITY value:<br>
+            Highlight ALL text spans containing the OPENNESS & REPRODUCIBILITY (OR) value:<br>
             (If you’d like to delete a highlight you created, double click on the highlighted span.)",
           "labels": [
-            'REPRODUCIBILITY',
+            'OR',
           ],
 
           # adding requirements
@@ -138,8 +140,8 @@
         {
             "annotation_type": "radio",
             "name": "choice_verify",
-            "description": "Check your work: Does the sentence contain any REPRODUCIBILITY value?<br><br>
-                            ATTENTION: If YES, make sure you highlight REPRODUCIBILITY value spans.",
+            "description": "Check your work: Does the sentence contain any OPENNESS & REPRODUCIBILITY (OR) value?<br><br>
+                            ATTENTION: If YES, make sure you highlight OPENNESS & REPRODUCIBILITY (OR) value spans.",
 
             # adding requirements
             "label_requirement": {"required":True},
