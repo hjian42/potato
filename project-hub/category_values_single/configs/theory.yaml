@@ -105,8 +105,10 @@
         {
           "annotation_type": "highlight",
           "name": "values",
-          "description": "<p>THEORETICAL GROUNDING refers to developing and applying theoretical models or frameworks to explain, predict, and understand phenomena. Note that phenomena and theories include social, natural, and engineering sciences. Here are some example excerpts:</p>
+          "description": "<p>PHENOMENA & THEORY (PT) refers to understanding social, natural, and engineering science phenomena by (1) providing empirical evidence, (2) developing and applying theories, proofs, and theoretical frameworks. Here are some example excerpts:</p>
             <ul>
+                <li>&quot;  provide empirical evidence to Zipf's law &quot;</li>
+                <li>&quot;  show extensive / systematic evidence to understand the phenomenon &quot;</li>
                 <li>&quot;  provide a proof of convergence &quot;</li>
                 <li>&quot;  provide formal guarantees &quot;</li>
                 <li>&quot;  prove that the algorithm is optimal &quot;</li>
@@ -117,13 +119,13 @@
             </ul>
             <br><p>
               ATTENTION:<br>
-              (1) Feel free to choose &quot;NO&quot; when there is no THEORETICAL GROUNDING value in the sentence.<br>
-              (2) THEORETICAL GROUNDING can refer to creating new theories, applying existing theories, and supporting or refuting existing theories.<br>
-              (3) THEORETICAL GROUNDING is separate from other research values like performance, novelty, simplicity, efficiency, safety, generalizability, user experience, societal implication, reproducibility, rigor, statistical significance, etc. 
+              (1) Feel free to choose &quot;NO&quot; when there is no PHENOMENA & THEORY (PT) value in the sentence.<br>
+              (2) PHENOMENA & THEORY (PT) is separate from other research values like performance, novelty, simplicity, efficiency, safety, generalizability, user experience, societal implication, reproducibility, etc. 
             </p><br>
-            <p>Highlight ALL text spans containing the &quot;THEORETICAL GROUNDING&quot; value:</p>",
+            Highlight ALL text spans containing the &quot;PHENOMENA & THEORY (PT)&quot; value:<br>
+            (If you’d like to delete a highlight you created, double click on the highlighted span.)",
           "labels": [
-            'THEORETICAL GROUNDING',
+            'PT',
           ],
 
           # adding requirements
@@ -138,7 +140,8 @@
         {
             "annotation_type": "radio",
             "name": "check_your_work_question",
-            "description": "Check your work: Does the sentence contain any THEORETICAL GROUNDING value?",
+            "description": "Check your work: Does the sentence contain any PHENOMENA & THEORY (PT) value?<br><br>
+                            ATTENTION: If YES, make sure you highlight PHENOMENA & THEORY (PT) value spans.",
 
             # adding requirements
             "label_requirement": {"required":True},
