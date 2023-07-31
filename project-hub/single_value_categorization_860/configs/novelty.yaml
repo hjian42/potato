@@ -63,8 +63,8 @@
   # define the surveyflow of the system, set up the pages before and after the data annotation page
     "surveyflow": {
       "on": True,
-      "order" : ['pre_annotation', 'post_annotation'],
-      "pre_annotation": ['surveyflow/guideline.jsonl'],
+      "order" : ['post_annotation'],
+      # "pre_annotation": ['surveyflow/guideline.jsonl'],
       "post_annotation": ['surveyflow/experience.jsonl', 'surveyflow/end.jsonl'],
       # If set, we will automatically generate testing questions similar to the annotation instances, but explicitly ask the annotator to choose one option
       # "testing": ['surveyflow/testing.jsonl'],
@@ -84,10 +84,10 @@
     "automatic_assignment": {
       #whether do automatic task assignment for annotators, default False.
       "on": True,
-      "output_filename": './annotation_output/task_assignment_60.json',
+      "output_filename": 'task_assignment_60.json',
       "sampling_strategy:": 'random',
       "labels_per_instance": 3,
-      "instance_per_annotator": 5,
+      "instance_per_annotator": 30,
       # "test_question_per_annotator": 0, # the number of attention test question to be inserted into the annotation queue. you must set up the test question in surveyflow to use this function
       "users": [  ],
     },
@@ -100,7 +100,7 @@
 
     "annotation_schemes": [
         {
-          "annotation_type": "highlight",
+          "annotation_type": "radio",
           "name": "values",
           "description": "<p>NOVELTY refers to the pursuit of introducing new things to a field, often by resolving existing gaps in research, extending the boundaries, or opening up new possibilities. Here are some example excerpts:</p>
             <ul>
@@ -111,21 +111,22 @@
                 <li>&quot;resolves an open gap&quot;</li>
                 <li>&quot;open or constrain technological possibilities&quot;</li>
                 <li>&quot;very little attention has been paid to&quot;</li>
+                <li>&quot;yields surprisingly interesting results&quot;</li>
             </ul>
             <br><p>
               ATTENTION: Feel free to choose &quot;NO&quot; when there is no NOVELTY value in the sentence.
               NOVELTY is separate from other research values like performance, efficiency, simplicity, generalization, safety, theoretical grounding, user experience, societal implication, reproducibility, rigor, statistical significance, etc. 
             </p><br>
-            <p>Highlight ALL text spans containing the &quot;NOVELTY&quot; value:</p>",
+            <p>Does the sentence above contain any &quot;NOVELTY&quot; value?</p>",
           "labels": [
-            'NOVELTY',
+            "YES", "NO",
             # 'Efficiency', 'Generalization', 'Novelty', 'Performance', 'Reproducibility', 
             # 'Rigor', 'Safety', 'Simplicity', 'Societal Implication', 'Statistical Significance', 
             # 'Theoretical Grounding', 'User Experience'
           ],
 
           # adding requirements
-          "label_requirement": {"required":False},
+          "label_requirement": {"required":True},
 
           # If true, numbers [1-len(labels)] will be bound to each
           # label. Highlight selection annotations with more than 10 are not supported
@@ -133,19 +134,19 @@
           # specification to bind all labels to keys.
           "sequential_key_binding": False,
         },
-        {
-            "annotation_type": "radio",
-            "name": "choice_verify",
-            "description": "Check your work: Does the sentence contain any NOVELTY value?",
+        # {
+        #     "annotation_type": "radio",
+        #     "name": "choice_verify",
+        #     "description": "Check your work: Does the sentence contain any NOVELTY value?",
 
-            # adding requirements
-            "label_requirement": {"required":True},
+        #     # adding requirements
+        #     "label_requirement": {"required":True},
 
-            # if you want to use multi-line textbox, turn on the text area and set the desired rows and cols of the textbox
-            "labels": [
-             "YES", "NO",
-          ],
-        },       
+        #     # if you want to use multi-line textbox, turn on the text area and set the desired rows and cols of the textbox
+        #     "labels": [
+        #      "YES", "NO",
+        #   ],
+        # },       
     ],
 
     # The html that changes the visualiztation for your task. Change this file
